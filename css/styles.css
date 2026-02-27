@@ -10,12 +10,16 @@ https: //www.w3schools.com/Css/css_navbar_vertical.asp
 
 /* Global styles 
 ------------------------------------*/
-html{
+html {
     box-sizing: border-box;
 }
-*, *::before, *::after{
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
+
 html,
 body {
     /*background: lightblue;*/
@@ -30,6 +34,7 @@ body {
     padding: 50px;
     overflow: hidden;
 }
+
 h2 {
     margin-top: 0;
 }
@@ -42,21 +47,44 @@ header {
 }
 
 header h1,
-header h2{
+header h2 {
     margin: 0;
 }
+
 .profile-img {
     /* width: 300px; */
     border-radius: 50%;
     /* float: left; */
     /* margin-right: 30px; */
 }
+
+.navbar {
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+
+}
+
+
+.navbar .nav-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar .nav-item a {
+    text-decoration: none;
+    color: black;
+
+}
+
 .column-narrow {
     width: 30%;
     float: left;
     padding-right: 3%;
     min-height: 175px;
 }
+
 .column-wide {
     width: 70%;
     float: left;
