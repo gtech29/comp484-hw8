@@ -1,0 +1,106 @@
+/* Color Palette
+https: //colorpalettegenerator.io/palette/slate-color-palette/#colors
+https: //www.w3schools.com/Css/css_navbar_vertical.asp
+# - color 1 : #8B94A5 --> for navbar background
+# - color 2 : #687387 --> hero background color
+# - color 3 : #606060 --> section background
+# - color 4 : #BECBD6 --> footer background
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+
+/* Global styles 
+------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html,
+body {
+    /*background: lightblue;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex';
+}
+
+.content-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+h2 {
+    margin-top: 0;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #8B94A5;
+    margin: 0;
+}
+
+header h1,
+header h2{
+    margin: 0;
+}
+.profile-img {
+    /* width: 300px; */
+    border-radius: 50%;
+    /* float: left; */
+    /* margin-right: 30px; */
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background-color: #687387;
+}
+
+.work-experience h2 p ul {
+    font-weight: 400;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #606060;
+}
+
+.education {
+    background-color: #687387;
+}
+
+.education h2 p {
+    font-weight: 400;
+}
+
+/* Footer
+------------------------------------*/
+footer {
+    background-color: #8B94A5;
+    text-align: center
+}
+
+footer a p {
+    font-weight: 400;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
