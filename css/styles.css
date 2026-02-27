@@ -31,7 +31,7 @@ body {
 .content-wrapper {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    /* padding: 50px; */
     overflow: hidden;
 }
 
@@ -42,8 +42,8 @@ h2 {
 /* Header & Footer 
 ------------------------------------*/
 header {
-    background-color: #8B94A5;
-    margin: 0;
+    background-color: transparent;
+    height: auto;
 }
 
 header h1,
@@ -52,30 +52,34 @@ header h2 {
 }
 
 .profile-img {
-    /* width: 300px; */
     border-radius: 50%;
-    /* float: left; */
-    /* margin-right: 30px; */
+    margin: 50px auto 10px;
 }
 
 .navbar {
     text-align: center;
     position: fixed;
-    background-color: white;
+    background-color: #c5cbd8;
     width: 100%;
-
 }
 
 
 .navbar .nav-item {
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
 }
 
 .navbar .nav-item a {
     text-decoration: none;
     color: black;
 
+}
+.content-wrapper .intro{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin-top: 35px;
 }
 
 .column-narrow {
@@ -85,23 +89,47 @@ header h2 {
     min-height: 175px;
 }
 
+
 .column-wide {
     width: 70%;
     float: left;
     min-height: 225px;
+    padding: 45px;
 }
-
+.intro .column-wide {
+    min-width: 100%;
+}
 
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-    background-color: #687387;
+    background-color: transparent;
+    padding-top: 50px;
+}
+.work-experience .content-wrapper {
+    margin-bottom: 85px;
+
 }
 
-.work-experience h2 p ul {
-    font-weight: 400;
+.content-wrapper h1 {
+    text-align:center;
 }
 
+.work-experience .column-wide {
+    padding: 0;
+}
+.work-experience .column-wide p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.work-experience .content-wrapper h1 {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.work-experience .content-wrapper h2 {
+    text-align: left;    
+}
 
 /* Education
 ------------------------------------*/
