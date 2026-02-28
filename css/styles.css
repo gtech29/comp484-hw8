@@ -142,14 +142,14 @@ header h2 {
 
 /* Education
 ------------------------------------*/
-.education {
-    background-color: #606060;
+.education{
+    margin-bottom: 100px;
+    padding-top: 50px;
+    height: 100vh;
 }
-
-.education {
-    background-color: #687387;
+.education h1 {
+    text-align: center;
 }
-
 .education h2 p {
     font-weight: 400;
 }
@@ -157,8 +157,8 @@ header h2 {
 /* Footer
 ------------------------------------*/
 footer {
-    background-color: #8B94A5;
-    text-align: center
+    text-align: center;
+    background-color: #c5cbd8;
 }
 
 footer a p {
