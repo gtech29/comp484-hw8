@@ -74,12 +74,21 @@ header h2 {
     color: black;
 
 }
-.content-wrapper .intro{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    height: 100vh;
-    margin-top: 35px;
+.hero-bg{    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(93, 144, 253, 0.5)),url('/images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+}
+.hero-bg .column-wide{
+    width: 100%;
+    float:none;
+    padding: 45px;
+    color: white;
 }
 
 .column-narrow {
