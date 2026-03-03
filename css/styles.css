@@ -75,7 +75,7 @@ header h2 {
 
 }
 .hero-bg{    
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(93, 144, 253, 0.5)),url('/images/hero.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(93, 144, 253, 0.5)),url('/images/main-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,8 +87,10 @@ header h2 {
 .hero-bg .column-wide{
     width: 100%;
     float:none;
-    padding: 45px;
-    color: white;
+    /* padding: 45px; */
+    color: #f7fafc;
+    background-color: #7b8699;;
+    border-radius: 10px;
 }
 
 .column-narrow {
@@ -105,9 +107,11 @@ header h2 {
     min-height: 225px;
     padding: 45px;
 }
-.intro .column-wide {
-    min-width: 100%;
+
+.hero-bg .content-wrapper .column-wide {
+    padding-bottom: 93px;
 }
+
 
 /* Work Experience
 ------------------------------------*/
