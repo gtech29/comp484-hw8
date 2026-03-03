@@ -75,7 +75,7 @@ header h2 {
 
 }
 .hero-bg{    
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(93, 144, 253, 0.5)),url('/images/main-bg.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(93, 144, 253, 0.5)),url('../images/main-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
