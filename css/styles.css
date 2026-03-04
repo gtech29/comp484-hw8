@@ -79,6 +79,7 @@ header h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     min-height: 100vh;
     display:flex;
@@ -146,9 +147,8 @@ header h2 {
 /* Education
 ------------------------------------*/
 .education{
-    margin-bottom: 100px;
     padding-top: 50px;
-    height: 100vh;
+
 }
 .education h1 {
     text-align: center;
@@ -162,6 +162,7 @@ header h2 {
 footer {
     text-align: center;
     background-color: #c5cbd8;
+    margin-top: 100px;
 }
 
 footer a p {
